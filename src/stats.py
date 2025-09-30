@@ -11,7 +11,7 @@ for V in data:
     valeurs_total.append(valeur_total)
 print(valeurs_total)
 total_stock = sum(valeurs_total)
-print(total_stock)
+print(f"Valeur totale du stock est {total_stock}")
 
 # Prix moyen des produits.
 moyen_prix = np.mean(prix)
