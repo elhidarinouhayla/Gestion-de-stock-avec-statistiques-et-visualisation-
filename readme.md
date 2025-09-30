@@ -25,11 +25,12 @@ stock-manager/
 ├── main.py ( Point d’entrée, menu principal )    
 ├── stock.py (Fonctions de gestion du stock ajout,suppression, mise à jour…)                 
 ├── stats.py (Fonctions de calculs statistiques avec numpy)
-├── visualize.py (Fonctions de visualisation avec matplotlib) 
-│── menu.py  Menu interactif (console)
-│── README.md            
-│── requirements.txt     
-│── .gitignore 
+├── visualize.py (Fonctions de visualisation avec matplotlib)    
+├── menu.py  Menu interactif (console)                 
+├── README.md
+├── requirements.txt     
+├── .gitignore                 
+
 
 ## les dépendances utilisées
 numpy
