@@ -22,22 +22,14 @@ Le projet doit être développé en binôme, avec une organisation professionnel
 
 stock-manager/ 
 ── src/ 
-├── main.py      
-├── stock.py     
-# Point d’entrée, menu principal 
-# Fonctions de gestion du stock                  
-(ajout,suppression, mise à jour…) 
-├── stats.py     
-# Fonctions de calculs statistiques avec numpy 
-├── visualize.py # Fonctions de visualisation avec matplotlib 
-│── menu.py          
-# Menu interactif (console) 
+├── main.py ( Point d’entrée, menu principal )    
+├── stock.py (Fonctions de gestion du stock ajout,suppression, mise à jour…)                 
+├── stats.py (Fonctions de calculs statistiques avec numpy)
+├── visualize.py (Fonctions de visualisation avec matplotlib) 
+│── menu.py  Menu interactif (console)
 │── README.md            
 │── requirements.txt     
 │── .gitignore 
-# Documentation du projet 
-# Dépendances (numpy, matplotlib)
-
 
 ## les dépendances utilisées
 numpy
