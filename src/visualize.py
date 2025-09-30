@@ -1,9 +1,9 @@
 import matplotlib.pyplot as plt
-from data import List
+from data import *
 #1. Graphique en barres : quantité par produit.
 
 def graphique_barres():
- for p in List :
+ for p in data :
     produit = p[0]
     quantity = p[1]
     plt.bar(produit,quantity,color="green")
@@ -13,7 +13,7 @@ def graphique_barres():
 def Camembert_diagramme():
  produits = []
  valeurs_totales = []
- for p in List :
+ for p in data :
         produit = p[0]
         quantity = p[1]
         prix = p[2]
@@ -24,5 +24,5 @@ def Camembert_diagramme():
  plt.title('Valeur totale par produit')
  plt.axis('equal') 
  plt.show()
-Camembert_diagramme()
+# Camembert_diagramme()
   
