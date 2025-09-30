@@ -48,3 +48,5 @@ def produits_dispo() :
     for p in List : 
         print(f"produit: {p[0]}, quantite: {p[1]}, prix: {p[2]}")
 # produits_dispo()
+####### statistiques #######
+######
