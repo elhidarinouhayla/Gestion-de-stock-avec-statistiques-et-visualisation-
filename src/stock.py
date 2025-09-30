@@ -46,6 +46,5 @@ def update_produit():
 def produits_dispo() :
     print("Liste des produits disponibles:")
     for p in List : 
-     print(f"produit: {p[0]}, quantite: {p[1]}, prix: {p[2]}")
-produits_dispo()
-    
+        print(f"produit: {p[0]}, quantite: {p[1]}, prix: {p[2]}")
+# produits_dispo()
