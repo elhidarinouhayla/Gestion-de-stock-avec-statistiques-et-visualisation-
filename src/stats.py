@@ -29,9 +29,13 @@ print(Max_prix)
 print(Min_prix)
 
 # Produit le plus cher et le moins cher.
-for P in prix_produit:
-    if P == Max_prix:
-        
+for element in data:
+    if element[2] == Max_prix:
+        print(f"le produit {element[0]} est le produit le plus cher ")
+    elif element[2] == Min_prix:
+        print(f"le produit {element[0]} est le produit le moins cher ")
+
+
 
 
 
